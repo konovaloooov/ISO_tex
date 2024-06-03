@@ -1,0 +1,50 @@
+\section*{Дополнение}
+На самом деле дополнения не будет, зато будет общий вид кубического уравнения $ax^3 + bx^2 + cx + d = 0$. Мало того, так ещё есть 
+одна из основных формул интегрирования: $\int x^adx = \frac {x^{a+1}} {a+1} + C$.
+
+Интегральная сумма Римана выглядит следующим образом:
+\begin{equation*}
+    \sigma(P) = \sigma(P, \xi_{P}) = \sum\limits_{k = 1}^{n}f(\xi_k)\Delta x_k
+\end{equation*}
+
+Интегрируема по Риману - $\Re[a, b]$
+
+\subsection*{Дополнение дополнения}
+Пример какого-то кода:
+\begin{minted}[frame=lines, fontsize=\small, linenos]{cpp}
+    #include <iostream>
+    using namespace std;
+
+    int main()
+    {
+        cout << "Hello world!" << endl;
+        return 0;
+    }
+\end{minted}
+
+Пример ещё какого-то кода но уже на другом языке:
+\begin{minted}[frame=lines, fontsize=\small, linenos]{python3}
+    import numpy as np
+
+    a = np.arr([1, 2 ,3])
+    b = np.arr([4, 5, 6])
+    matrix = np.eye(6, None, 0, dtype=float)
+
+    sum_ab = a + b
+    print(c, '\n', matrix) #Выводом является массив [5,7,9] и E матрица 6x6
+\end{minted}
+
+\newpage
+Пример какой-то таблицы:
+\begin{table}[H]
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Фамилия} & \textbf{Имя} & \textbf{Направление} & \textbf{Курс} \\ \hline
+        Пицик            & Харитон      & ФИИТ                 & 1             \\ \hline
+        Коновалов        & Александр    & ФИИТ                 & 1             \\ \hline
+        Иванов           & Иван         & ИВТ                  & 3             \\ \hline
+    \end{tabular}
+
+    \caption*{Пример таблицы}
+    \label{tab:my-table}
+\end{table}
